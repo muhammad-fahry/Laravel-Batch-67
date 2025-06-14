@@ -20,7 +20,7 @@
     <h3>Cara Bergabung dengan SanberBook</h3>
     <ol>
         <li>1. Mengunjungi Website ini</li>
-        <li>2. Mendaftar di <a href="/pendaftaran">Form Pendaftaran</a></li>
+        <li>2. Mendaftar di <a href="/pendaftaran">Form Sign Up</a></li>
         <li>3. Selesai!</li>
 </body>
 </html>

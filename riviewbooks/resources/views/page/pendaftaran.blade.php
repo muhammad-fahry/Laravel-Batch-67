@@ -11,13 +11,13 @@
 
     <h2>Sign Up Form</h2>
 
-    <form action="{{ route('form.welcome') }}" method="post">
+    <form action="/welcome" method="post">
         @csrf
         <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
+        <input type="text" name="fname" placeholder="First Name"><br><br>
         
         <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+        <input type="text" name="lname" placeholder="Last Name"><br><br>
 
         <label>Gender :</label>
         <br>
@@ -51,7 +51,8 @@
 
         <label>Address</label><br>
         <textarea name="alamat" rows="5" cols="30"></textarea><br><br>
-        <button type="submit">Register</button>
+        <button type="submit">Register</button><br><br>
+        <a href="/">Back</a>
         <br><br>
         <label for="newsletter">I want to join the SanberBook newsletter</label>
         <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br><br>
