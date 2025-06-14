@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SanberBook</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>Create New Account</h1>
+@extends('layouts.master')
+@section('title')
+       Create New Account
+@endsection
+@section('content')
+   
 
     <h2>Sign Up Form</h2>
 
@@ -58,7 +54,4 @@
         <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br><br>
         </form>
 
-
-</body>
-
-</html>
+@endsection
