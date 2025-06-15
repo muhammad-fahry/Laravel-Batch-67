@@ -11,7 +11,6 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/pendaftaran">Registrasi</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
           <li><a href="/"><span>About</span></a>
             <ul>
               
